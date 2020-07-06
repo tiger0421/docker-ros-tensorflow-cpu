@@ -7,6 +7,6 @@ else
     DOCKERFILE_PATH_ARG="-f $DOCKERFILE_PATH"
 fi
 
-ROS_DISTRO=$(ls /opt/ros);
+ROS_DISTRO=melodic;
 
 docker build --build-arg BASE_TAG=$DOCKER_TAG --build-arg ROS_DISTRO=$ROS_DISTRO $DOCKERFILE_PATH_ARG -t $IMAGE_NAME .
