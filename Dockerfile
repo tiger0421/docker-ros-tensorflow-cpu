@@ -1,7 +1,5 @@
-ARG BASE_TAG
-FROM ros:$BASE_TAG
+FROM ros:melodic
 
-ARG ROS_DISTRO
 ENV DEBIAN_FRONTEND=noninteractive
 RUN sed -i 's#http://tw.archive.ubuntu.com/#http://archive.ubuntu.com/#' /etc/apt/sources.list && \
     apt update && \
