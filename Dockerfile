@@ -29,7 +29,7 @@ RUN sed -i 's#http://tw.archive.ubuntu.com/#http://archive.ubuntu.com/#' /etc/ap
     apt clean && \
     rm -rf /var/lib/apt/lists/*
 RUN curl -kL https://bootstrap.pypa.io/get-pip.py | python
-RUN pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow_cpu-2.1.0-cp27-cp27mu-manylinux2010_x86_64.whl
+RUN pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow_cpu-2.0.0-cp27-cp27mu-manylinux2010_x86_64.whl
 
 ARG DOCKER_UID=1000
 ARG DOCKER_USER=docker
