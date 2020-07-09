@@ -13,6 +13,7 @@ User named "docker" is already created and this user is beloged to sudoers.
 So, you can use `sudo` command.  
 For example  
 `$ sudo apt update`
+password is `ubuntu`.
 
 ## How to running
 ```
