@@ -2,4 +2,4 @@
 this images is based on ros:melodic
 
 ## Version
-Tensorflow 2.7
+Python 2.7
