@@ -6,7 +6,7 @@ this images is based on [this container](https://hub.docker.com/layers/ros/libra
 - ubuntu 18.04
 - ROS melodic
 - Python      2.7
-- Tensorflow  2.1.0
+- Tensorflow  2.0.0
 
 ## User account
 User named "docker" is already created and this user is beloged to sudoers.  
