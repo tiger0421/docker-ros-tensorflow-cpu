@@ -5,7 +5,6 @@ this images is based on [this container](https://hub.docker.com/layers/ros/libra
 ## Version
 - ubuntu 18.04
 - ROS melodic
-
 - Python      2.7
 - Tensorflow  2.1.0
 
